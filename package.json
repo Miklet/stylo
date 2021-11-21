@@ -1,0 +1,10 @@
+{
+  "name": "stylo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Miklet",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
