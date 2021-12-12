@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Miklet",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@babel/core": "^7.16.0"
   },

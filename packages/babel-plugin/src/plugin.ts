@@ -6,6 +6,10 @@ function plugin(): PluginObj {
   return {
     visitor: {
       ImportDeclaration(path) {
+        /**
+         * Start by looking if the library is imported within currently processed file.
+         * If not, we can skip it.
+         */
         if (!(path.node.source.value === libName)) {
           return;
         }

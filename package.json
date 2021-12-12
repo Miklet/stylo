@@ -1,6 +1,7 @@
 {
-  "name": "stylo",
+  "name": "stylo-monorepo",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "author": "Miklet",
   "license": "MIT",
